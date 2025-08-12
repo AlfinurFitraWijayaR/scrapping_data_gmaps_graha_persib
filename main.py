@@ -92,7 +92,7 @@ while first_scroll_attempt < last_scroll_attempt and len(data_reviews) < data_va
         break
     
 # Tampilkan hasil
-for i, data in enumerate(data_reviews):
+for i, data in enumerate(data_reviews[:data_value], 1):
     print(f'{i}. {data['username']}')
     print(f'{data['rating']}')
     print(f'{data['review']}\n')
