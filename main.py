@@ -30,7 +30,7 @@ except:
 # Loop berdasarkan elemen container
 data_reviews = []
 seen_reviews = set()
-data_value = 50
+data_value = 500
 first_scroll_attempt = 0
 last_scroll_attempt = 200
 print('Mulai scroll')
